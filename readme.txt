@@ -17,3 +17,7 @@ protoc --proto_path=../../ -otahu.pb ../../sparkplug_b/sparkplug_b.proto
 mv tahu.pb src/
 mv tahu.pb.c src/
 mv tahu.pb.h include/
+
+#################################################
+slightly modified for ESP IDF build
+#################################################
